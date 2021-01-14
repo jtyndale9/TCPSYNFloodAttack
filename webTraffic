@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for((x=1; x<1000000; x++)); do
+	curl -o index.html 5.6.7.8
+	sleep 1
+done
